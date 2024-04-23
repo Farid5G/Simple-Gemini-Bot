@@ -1,0 +1,11 @@
+This Python script uses the Google Generative AI library to generate content based on a user prompt and data from a file. Here's a step-by-step breakdown:
+The script prompts the user to enter a prompt.
+It reads data from a file named "data.txt" in the same directory.
+It uses the Google Generative AI library to generate content based on the user prompt and data from the file.
+The generated content is then printed to the console.
+Key components
+User input: The script prompts the user to enter a prompt.
+Data file: The script reads data from a file named "data.txt".
+Google Generative AI library: The script uses this library to generate content based on the user prompt and data.
+API key: The script uses an API key to authenticate with the Google Generative AI library (replace with your own API key).
+Model: The script uses a GenerativeModel instance (currently set to "gemini-pro") to generate content.
